@@ -4,22 +4,23 @@ def main():
     while(True):
         print("Please enter the number of fibonacci series :")
         numberOfSeries = int(input())
-        print("************")
+        print("********************")
         for i in range(1, numberOfSeries+1):
-            print(fib(i))
+            print(fibonacciSerieRecursive(i))
 
 
-def fib(n):
+def fibonacciSerieRecursive(n):
     if(n == 1):
         return 0
     elif(n == 2):
         return 1
     else:
-        return fib(n-1)+fib(n-2)
+        return fibonacciSerieRecursive(n-1)+fibonacciSerieRecursive(n-2)
 
 
 if __name__ == '__main__':
     main()
 
 
-#by Arman Azarnik
+# by Arman Azarnik
+# armanazarnik@gmail.com

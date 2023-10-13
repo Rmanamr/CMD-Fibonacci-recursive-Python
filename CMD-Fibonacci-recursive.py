@@ -31,7 +31,7 @@ def Fibonacci_Serie_Generator_Recursive(number):
     """
     function for generating the Fibonacci series with a recursive function.
     @param number: the input for serie number.
-    @type text: int
+    @type number: integer
     @return: Fibonacci serie number
     @rtype: integer
     @examples: 
@@ -54,7 +54,7 @@ def store_Fibonacci_series_in_array(number):
     """
     function for storing the generated Fibonacci serie in  an array.
     @param number: the input for serie number.
-    @type text: int
+    @type number: integer
     @return: Fibonacci_Series
     @rtype: array of integers
     @examples: 
@@ -77,7 +77,7 @@ def array_Printer(array):
     """
     function for printing each array element in a line.
     @param array: an array of elements.
-    @type text: anything like integer, double and string.
+    @type array: anything like integer, double and string.
     @examples: 
          array_1 = []
          array_2 = [1, 2, 3]

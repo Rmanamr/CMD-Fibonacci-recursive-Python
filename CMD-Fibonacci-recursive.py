@@ -13,7 +13,7 @@ def main():
     while(True):
     # while loop to keep the program running
 
-        print("Please enter the number of fibonacci series :")
+        print("Please enter the number of Fibonacci series :")
         number_Of_Series = int(input())
         # casting the input string into integer
 

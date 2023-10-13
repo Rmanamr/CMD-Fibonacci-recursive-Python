@@ -22,6 +22,8 @@ def main():
         # storing Fibonacci serie array in result variable 
 
         array_Printer(result)
+        # passing the result to the array_Printer to print each array element in a line
+        
         print("**************************************************")
 
 

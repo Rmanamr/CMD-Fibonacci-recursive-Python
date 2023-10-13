@@ -21,7 +21,7 @@ def main():
         result = store_Fibonacci_series_in_array(number_Of_Series)
         # storing Fibonacci serie array in result variable 
 
-        array_printer(result)
+        array_Printer(result)
         print("**************************************************")
 
 
@@ -71,7 +71,7 @@ def store_Fibonacci_series_in_array(number):
     return Fibonacci_Series
 
 
-def array_printer(array):
+def array_Printer(array):
     """
     function for printing each array element in a line.
     @param array: an array of elements.
@@ -79,9 +79,9 @@ def array_printer(array):
     @examples: 
          array_1 = []
          array_2 = [1, 2, 3]
-     >>> array_printer(array_1)
+     >>> array_Printer(array_1)
           
-     >>> array_printer(array_2)
+     >>> array_Printer(array_2)
          1
          2
          3

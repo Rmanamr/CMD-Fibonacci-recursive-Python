@@ -3,14 +3,14 @@ Python CMD program for printing Fibonacci series from 0 to input value(number_Of
 using Python version 3.11.4  
 
 Run the program using :  
-CMD_Fibonacci_recursive.exe  
-or typing :  
-"python CMD_Fibonacci_recursive.py" in Windows CMD  
-while CMD is in the CMD-Fibonacci-recursive.py directory  
+CMD_Fibonacci_Recursive.exe  
+or using :  
+"python CMD_Fibonacci_Recursive.py" in Windows CMD  
+while CMD is in the CMD-Fibonacci-recursive-Python directory  
 
 You can see the program document using :  
-"python -m pydoc CMD_Fibonacci_recursive"  
- while CMD is in the CMD-Fibonacci-recursive.py directory  
+"python -m pydoc CMD_Fibonacci_Recursive"  
+ while CMD is in the CMD-Fibonacci-recursive-Python directory  
   
 Feel free to contact me at:  
 @ armanazarnik@gmail.com
